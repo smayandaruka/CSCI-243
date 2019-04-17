@@ -1,0 +1,47 @@
+sd9080@kinks:~/Courses/CS243/Homeworks/3/hw3/act1$ gdb -q good-life
+Reading symbols from good-life...done.
+(gdb) run
+Starting program: /home/stu4/s13/sd9080/Courses/CS243/Homeworks/3/hw3/act1/good-life 
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff7a5ccc0 in _IO_vfprintf_internal (
+    s=0x7ffff7dd2620 <_IO_2_1_stdout_>, format=<optimized out>, 
+    ap=ap@entry=0x7fffffffe638) at vfprintf.c:1632
+1632	vfprintf.c: No such file or directory.
+(gdb) where
+#0  0x00007ffff7a5ccc0 in _IO_vfprintf_internal (
+    s=0x7ffff7dd2620 <_IO_2_1_stdout_>, format=<optimized out>, 
+    ap=ap@entry=0x7fffffffe638) at vfprintf.c:1632
+#1  0x00007ffff7a63899 in __printf (format=<optimized out>) at printf.c:33
+#2  0x0000000000400f02 in main () at good-life.c:176
+(gdb) frame 2
+#2  0x0000000000400f02 in main () at good-life.c:176
+176					  printf("%s", life[row][col]);
+(gdb) list
+171				  
+172			 for(row = 0; row<20; row++)
+173			 {
+174				  for(col = 0; col<20; col++)
+175				  {
+176					  printf("%s", life[row][col]);
+177				  }
+178				  puts(" ");
+179			  }
+180				 
+(gdb) break
+Breakpoint 1 at 0x400f02: file good-life.c, line 174.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000400f02 in main at good-life.c:174
+(gdb) break 176
+Breakpoint 2 at 0x400ebf: file good-life.c, line 176.
+(gdb) delete breakpoint 1
+(gdb) info break
+Num     Type           Disp Enb Address            What
+2       breakpoint     keep y   0x0000000000400ebf in main at good-life.c:176
+(gdb) 
+

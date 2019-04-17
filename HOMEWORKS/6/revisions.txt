@@ -1,0 +1,41 @@
+commit fcd187b9237f53a6bdf6cfada175c8aa90a91d7f
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Tue Aug 1 14:46:28 2017 -0400
+
+    final commit for this homework... I do not have the slightest idea why it prints "ma" instead of "main" for only an object module. Studying for final now.
+
+commit baac0545525fe3b9946706652443d8c41d85350c
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Mon Jul 31 19:49:03 2017 -0400
+
+    fixed one error.. Still need to fix one more where it prints "ma" insted of "main" when using the object module
+
+commit 3271618116e4fd30df379e0c4eb3c8cb919d7b31
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Mon Jul 31 13:58:05 2017 -0400
+
+    Working copy of the homework
+
+commit e0153d29331c078738eb3220272801c8980db35f
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Mon Jul 31 06:41:37 2017 -0400
+
+    this program works completely as per the write-up. Still need to make a few tweaks. Submitting to try to find differences
+
+commit 5531096ac9f427221bcfc0359625e81737635ceb
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Fri Jul 28 14:33:04 2017 -0400
+
+    made a few other changes and now there are no memory leaks
+
+commit f1bd3e00ed2696d41ec1b59a9122882141317d6d
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Thu Jul 27 16:21:02 2017 -0400
+
+    made a few changes and output prints correctly
+
+commit abcb080f34b88537e2991e6a8747d0bca5baf49b
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Thu Jul 27 15:50:47 2017 -0400
+
+    working copy of the homework..

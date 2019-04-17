@@ -1,0 +1,3 @@
+ZipCodes=50
+Population=1750367
+MeanPopByZip=35007.3

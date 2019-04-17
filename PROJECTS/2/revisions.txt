@@ -1,0 +1,77 @@
+commit 6d07bbdcb409f90a85da4ab504c1731fe8df8d77
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sun Jul 30 14:21:46 2017 -0400
+
+    Trying to get the add function to work correctly.
+
+commit c51c97e50860063eb7789c80872d3d0cf337a31f
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sun Jul 30 09:08:44 2017 -0400
+
+    Full working copy of the project..
+
+commit b2bf0c72be8eebc0ff8f7c81d3f3530ac5841208
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sat Jul 29 18:50:59 2017 -0400
+
+    final commit for this project. still a couple differences with try
+
+commit d107c8be7cffc3b2cd4b1e60e87dc9bf530d7819
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Thu Jul 27 08:20:41 2017 -0400
+
+    made another change to try and fix try differences
+
+commit a20eb2028826507eb3c8cdc8606b5535ae382fac
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Thu Jul 27 06:03:54 2017 -0400
+
+    made a minor change
+
+commit cd936c99663ea5c6d34e3b9fe392bcdb152233c1
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Thu Jul 27 04:30:20 2017 -0400
+
+    size now works correctly when the tree is empty
+
+commit 948a6ede63c200799351f14f096d64839fe68834
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Wed Jul 26 19:33:46 2017 -0400
+
+    Made a few minor changes trying to match try's output (there are still a few differences that need to be fixed).
+
+commit 2aca5d4a293a4a8e11899a3559b177e1723ff79f
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Wed Jul 26 18:01:22 2017 -0400
+
+    It now works when the tree is empty and user enters find and it prints an error message
+
+commit 58c105a280145ba0b42a8bbcd6f9dc7911419b75
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Wed Jul 26 17:51:00 2017 -0400
+
+    It now works when there is only 1 name in the input file.
+
+commit b4d254134fe9430e678836b2b84b582372026f58
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Wed Jul 26 14:03:19 2017 -0400
+
+    made a couple changes so that output matches try. still need to fix a few bugs
+
+commit 68bf902914ff23d2985b2153f594d95ec0cfdeb3
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Wed Jul 26 11:54:34 2017 -0400
+
+    Removed a variable to remove unused variable warning.
+
+commit 889e68df3509eefaa88f1ee00821c71d46e84785
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Wed Jul 26 10:08:01 2017 -0400
+
+    made a few changes. Fixed a couple of diffs with try. All memory leaks have been fixed
+
+commit 9a0849e85f190975e8f8831e91b289d99802a4c5
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Tue Jul 25 19:43:02 2017 -0400
+
+    a working copy of the project. will try and submit

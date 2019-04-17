@@ -1,0 +1,39 @@
+(gdb) break 176
+Breakpoint 1 at 0x400eff: file good-life.c, line 176.
+(gdb) run
+Starting program: /home/stu4/s13/sd9080/Courses/CS243/Homeworks/3/hw3/act1/good-life 
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Breakpoint 1, main () at good-life.c:176
+176					  printf("%c", life[row][col]);
+(gdb) display row
+1: row = 0
+(gdb) display col
+2: col = 0
+(gdb) display life[row][col]
+3: life[row][col] = 16 '\020'
+(gdb) continue 17
+Will ignore next 16 crossings of breakpoint 1.  Continuing.
+
+Breakpoint 1, main () at good-life.c:176
+176					  printf("%c", life[row][col]);
+1: row = 0
+2: col = 17
+3: life[row][col] = -24 '\350'
+(gdb) continue 4
+Will ignore next 3 crossings of breakpoint 1.  Continuing.
+???xu??????? 
+
+Breakpoint 1, main () at good-life.c:176
+176					  printf("%c", life[row][col]);
+1: row = 1
+2: col = 1
+3: life[row][col] = 127 '\177'
+(gdb) 
+
+Lines 55, 91, 128, 160, and 168 used "==" instead of "=".
+I changed all those and now the program runs fine.
+

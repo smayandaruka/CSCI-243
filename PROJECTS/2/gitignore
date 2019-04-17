@@ -1,0 +1,63 @@
+#########################################################
+# packman project gitignore file
+# list was taken from github and modified for csci243 use
+# Sun Mar  5 14:38:28 EST 2017
+#########################################################
+#
+# add recreatable/regenerated files and binaries of the project:
+
+
+#
+# change if you have graphics that cannot be replaced/remade easily.
+*.png
+*.jpg
+###################
+# doxygen generated files
+Source/doc/*
+# python pyc cache
+__pycache__/*
+#########################################################
+# generic exclusions from github gitignore
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.a
+*.pyc
+*.s
+*.i
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.aux
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.Trash
+Thumbs.db
+

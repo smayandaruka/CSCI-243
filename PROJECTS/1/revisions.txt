@@ -1,0 +1,53 @@
+commit 098ada9d952cc78101633ca731fcdd2f0912e454
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Mon Jul 17 19:57:04 2017 -0400
+
+    made a minor change so the program does not quit even when there are trees burning.
+
+commit 6e77bbcb31f0bbbfc3aea4f360dc046489828587
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sat Jul 15 10:07:29 2017 -0400
+
+    A fully working program. I still need to modularize the code.
+
+commit 91ae0c3224d4231ec2ba2849661d2d55c243716a
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sat Jul 15 09:40:32 2017 -0400
+
+    A fully working program. I still need to modularize my code.
+
+commit baea49daccfb42770e1770b1fe3c7ea86c207e82
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sat Jul 8 18:13:34 2017 -0400
+
+    Structured the program into multiple files. Commiting all the required files.
+
+commit ed9b6b34f2df508973d96ae369688cbf86d29320
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sat Jul 8 06:54:15 2017 -0400
+
+    A few minor changes
+
+commit 0895eff66d8fbc0e80d40fe75baf7d92f7b49e84
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sat Jul 8 06:36:33 2017 -0400
+
+    Iteration through the forest still doesn't work. Initialization works fine. Trying to get the cycles going
+
+commit d64eaaf5e372e01825d8e18ab1bec734543a2936
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sat Jul 8 04:54:36 2017 -0400
+
+    Initialization works...
+
+commit 220d8ac014caa23338cdba1c5efeb355ab12c400
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sat Jul 8 03:08:00 2017 -0400
+
+    Shuffling finally works!
+
+commit dbd3f11feda7070a28521b1d26d90eb4e1be95e8
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Sat Jul 8 02:43:27 2017 -0400
+
+    A little working copy

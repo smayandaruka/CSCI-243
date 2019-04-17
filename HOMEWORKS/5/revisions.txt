@@ -1,0 +1,23 @@
+commit caffefbbf6f39866d688567e23c688d6dc378d2f
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Mon Jul 17 10:01:45 2017 -0400
+
+    Made a minor change..
+
+commit 1ae2fe5b0a08f64b49ea6e7e8258b1edf80d6344
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Thu Jul 13 21:08:56 2017 -0400
+
+    fully working program.. Changed formatting a little bit
+
+commit b48b7f388dab70d95442843808c6d98b2cecdb1d
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Thu Jul 13 20:29:32 2017 -0400
+
+    Changed a little code.. still works
+
+commit b186ac821abe2386c86fffbbbb8cf8fe7d1b154e
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Thu Jul 13 20:24:54 2017 -0400
+
+    The queue implementation works correctly.

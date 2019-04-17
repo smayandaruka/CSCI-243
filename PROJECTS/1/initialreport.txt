@@ -1,0 +1,50 @@
+============================= ASSIGNMENT REPORT ============================
+Assignment name is: Wildfire
+My name is:         <<<Smayan Daruka>>>
+
+	[USE PLAIN TEXT]
+	[INSERT ANSWERS AFTER EACH QUESTION AND ADD MORE LINES AS NEEDED.]
+	[MAKE YOUR ANSWERS SHORT AND TO THE POINT. BULLET POINTS ARE GOOD.]
+
+===== In what cases does the program run correctly?  =================
+My program initializes the forest correctly. It reads in command line
+arguments correctly as well. All my error messages are printed
+correctly.
+
+===== In what cases does the program fail and how?  ==================
+The program fails to run in an infinite loop (or till no more fires).
+I have spent a lot of time figuring out wha's wrong with my logic
+but I can't seem to find any flaws even though there definitely is
+something wrong.
+
+===== If applicable, what were the extra credit results?  ============
+===== If applicable, describe how to run the extra credit.  ==========
+
+
+===== How much time did I spend on the project?  =====================
+I spent almost a full week on this project. I know it's a long time
+and I did most of my work on my local machine and I had a hard drive
+crash after which I lost everything and I had to start over. No excuses
+though.
+
+===== What did I learn?  =============================================
+I learned a lot about reading and parsing command line arguments.
+Also, I learned how to overwrite stuff on the console using cursor-
+controlled functions. I learned how to seed and generate random numbers.
+
+===== What was easy in this assignment?  =============================
+Honestly, there wasn't much easy in this assignment except generating
+random numbers.
+
+===== What gave me problems or troubles?  ============================
+I am still facing issues with cycling through the forest and updating.
+It works the first time and then there is a flaw in the logic.
+
+===== What would be the most important improvement for the project?  =
+Learning how to iterate through the forest multiple times. Also learning
+to store the forest in different data types.
+
+===== What else would I have liked to do for this assignment?  =======
+Figuring out the correct way to cycle through the forest multiple times.
+
+============================================================================

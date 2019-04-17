@@ -1,0 +1,11 @@
+commit f004567fdaaadbaa40b3ce30ee95c5262f5818de
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Tue Jul 11 20:19:14 2017 -0400
+
+    Fully working program.
+
+commit fa735593a58aaf16456904a603c674b7fd5c17f1
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Tue Jul 11 18:14:54 2017 -0400
+
+    Error checking is done. Successfully made an array. Working on creating the tree.

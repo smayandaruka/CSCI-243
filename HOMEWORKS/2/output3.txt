@@ -1,0 +1,3 @@
+ZipCodes=30
+Population=1039197
+MeanPopByZip=34639.9

@@ -1,0 +1,23 @@
+
+#include <stdlib.h>
+
+/* ========================================================================
+ * This is just one of several possibilities for representing an N-ary tree.
+ * Start with this structure definition, and, as you refine your design,
+ * you may modify this struct to suit your needs. 
+ * ======================================================================== */
+
+/// NTree_S implementation for N-ary tree structure.
+typedef
+struct NTree_S {
+    const char * name;           ///< name of the person.
+    struct NTree_S * children;   ///< collection of children.
+    size_t child_count;          ///< current number of children.
+    size_t capacity;             ///< capacity of children collection.
+} NTree;                         ///< NTree is an alias for the struct.
+
+/// NTree_p is the "pointer to N-ary tree struct" type.
+
+typedef struct NTree_S * NTree_p;
+
+

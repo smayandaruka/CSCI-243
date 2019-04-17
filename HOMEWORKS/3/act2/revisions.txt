@@ -1,0 +1,31 @@
+commit d92b34edb9976b96c98043e57ee06ddf136b1867
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Wed Jul 5 09:06:58 2017 -0400
+
+    Fixed good-life.c to implement the rules correctly. The code has been formatted properly.
+    It finally works!
+
+commit 2464fc144aa9f628b8c5a19ea36707dc09a30a4d
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Tue Jul 4 12:53:35 2017 -0400
+
+    fixed a few other things
+
+commit bc4ed764d1d8c64269648b2d471ced6f99a7bbef
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Tue Jul 4 11:05:04 2017 -0400
+
+    Fixed the code so it now compiles without any errors or warnings.
+
+commit 4b448500c812150696a58aedf58f4eae06423ac2
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Tue Jul 4 10:36:23 2017 -0400
+
+    Lines 55, 91, 128, 160, and 168 used "==" instead of "=".
+    I changed all those and now the program runs fine.
+
+commit fd51d35db88a9f182bc18ebd55650ebfdc4dc83a
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Tue Jul 4 10:04:06 2017 -0400
+
+    I changed the "%s" to "%c" on lines 176 and 189 so as to print a character.

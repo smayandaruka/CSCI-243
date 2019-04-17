@@ -1,0 +1,12 @@
+commit 4b448500c812150696a58aedf58f4eae06423ac2
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Tue Jul 4 10:36:23 2017 -0400
+
+    Lines 55, 91, 128, 160, and 168 used "==" instead of "=".
+    I changed all those and now the program runs fine.
+
+commit fd51d35db88a9f182bc18ebd55650ebfdc4dc83a
+Author: Smayan  Daruka <sd9080@cs.rit.edu>
+Date:   Tue Jul 4 10:04:06 2017 -0400
+
+    I changed the "%s" to "%c" on lines 176 and 189 so as to print a character.

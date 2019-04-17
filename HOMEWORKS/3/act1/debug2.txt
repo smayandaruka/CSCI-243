@@ -1,0 +1,46 @@
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/stu4/s13/sd9080/Courses/CS243/Homeworks/3/hw3/act1/good-life 
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Breakpoint 2, main () at good-life.c:176
+176					  printf("%s", life[row][col]);
+(gdb) info break
+Num     Type           Disp Enb Address            What
+2       breakpoint     keep y   0x0000000000400ebf in main at good-life.c:176
+	breakpoint already hit 1 time
+(gdb) display row
+1: row = 0
+(gdb) display col
+2: col = 0
+(gdb) whatis life
+type = char [20][20]
+(gdb) display life[row][col]
+3: life[row][col] = 16 '\020'
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/stu4/s13/sd9080/Courses/CS243/Homeworks/3/hw3/act1/good-life 
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Breakpoint 2, main () at good-life.c:176
+176					  printf("%s", life[row][col]);
+1: row = 0
+2: col = 0
+3: life[row][col] = 16 '\020'
+(gdb) next
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff7a5ccc0 in _IO_vfprintf_internal (s=0x7ffff7dd2620 <_IO_2_1_stdout_>, 
+    format=<optimized out>, ap=ap@entry=0x7fffffffe638) at vfprintf.c:1632
+1632	vfprintf.c: No such file or directory.
+(gdb) 
+
+I changed the "%s" to "%c" on lines 176 and 189 so as to print a character.
