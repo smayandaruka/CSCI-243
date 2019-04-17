@@ -1,4 +1,3 @@
-# CSCI243
-CS243 - Mechanics of Programming at RIT.
+# CSCI-243: Mechanics of Programming
 
-Includes all homeworks & projects for Summer 2017
+Assignments for the Mechanics of Programming class at RIT
